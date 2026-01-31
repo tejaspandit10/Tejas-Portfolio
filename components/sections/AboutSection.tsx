@@ -21,7 +21,7 @@ const AboutSection: React.FC = () => {
                 <motion.img 
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 1.2, ease: "easeOut" }}
-                  src="TejasPortfolio.png" 
+                  src="/TejasPortfolio.png" 
                   className="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 transition-all duration-1000 brightness-110 contrast-125" 
                   alt="Tejas Pandit Portrait" 
                 />
