@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { TIMELINE } from '../../constants';
+import portrait from "../../TejasPortfolio.png";
 
 const AboutSection: React.FC = () => {
   return (
@@ -21,7 +22,7 @@ const AboutSection: React.FC = () => {
                 <motion.img 
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 1.2, ease: "easeOut" }}
-                  src="/TejasPortfolio.png" 
+                  src={portrait}
                   className="w-full h-full object-cover object-center grayscale group-hover:grayscale-0 transition-all duration-1000 brightness-110 contrast-125" 
                   alt="Tejas Pandit Portrait" 
                 />
